@@ -1,0 +1,185 @@
+/*------------------------------------
+ *Author:FortunaTheme
+ *Template:Experta
+ *Version:1.0
+ *-------------------------------------
+ */
+
+@media screen and (max-width: 992px) {
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*------header--------*/
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+    background: transparent;
+  }
+  .slicknav_btn {
+    margin-top: 20px;
+    background: #fff;
+    margin-right: 20px;
+  }
+  .slicknav_nav a {
+    background: #e68200;
+    height: 47px;
+    color: #fff;
+    width: 200px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .slicknav_nav li {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+  .slicknav_nav a:hover {
+    border-radius: 0px;
+    background: #000;
+    color: #fff;
+  }
+  .slicknav_nav,
+  .slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .slicknav_nav .slicknav_row,
+  .slicknav_nav a {
+    margin: 0px;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #000;
+  }
+  /*--------------about----------------*/
+  .about-img-overlay {
+    width: 100%;
+  }
+  .about-img {
+    margin-bottom: 30px;
+  }
+  .about-text a {
+    margin-top: 45px;
+  }
+  .about-text {
+    padding-left: 0px;
+  }
+  .about-img-overlay {
+    bottom: 30px;
+  }
+  .about-img:hover .about-img-overlay {
+    bottom: 30px;
+  }
+  /*------------experience---------------*/
+  .experience-item {
+    margin-bottom: 30px;
+  }
+  .blog-single-item.blog-item-margin {
+    margin-bottom: 50px;
+  }
+  .blog-single-item .blog-text a {
+    margin-top: 8px;
+  }
+  .contact-detail {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) {
+  /*--------------about----------------*/
+  .about-img {
+    margin-top: 35px;
+  }
+  /*--------------service----------------*/
+  .service-content {
+    min-height: 344px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  /*--------------header--------------*/
+  .typed-cursor,
+  .element {
+    font-size: 45px;
+  }
+  /*----------testimonial---------*/
+  #client-testimonial #owl-demo-testimonial .item {
+    margin: 0px 20px;
+  }
+  .quote-text {
+    margin: 0px 30px;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1200px) {
+  /*--------------experience----------------*/
+  .experience-item {
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  /*--------section-title-----*/
+  .section-title {
+    padding: 0px 10px;
+  }
+  /*----------experience----------*/
+  .experience .experience-content h6 {
+    font-size: 20px;
+    margin-left: 64px;
+    vertical-align: -7px;
+    display: block;
+  }
+  .experience .experience-text .org {
+    font-size: 14px;
+    padding: 8px 41px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+  }
+  .experience-item {
+    margin: 20px 25px;
+    background: #fff;
+    padding: 22px 22px;
+    position: relative;
+    border-bottom: 4px solid #e68200;
+  }
+  .experience-content .range::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    border-style: solid;
+    border-width: 0 0 13px 28px;
+    left: -50px;
+  }
+  /*----------testimonial---------*/
+  .quote-text {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width:360px) {
+  /*----------------testimonial-----------*/
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 461px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  /*-------portfolio------*/
+  .portfolio-overlay .category {
+    margin-top: 65px;
+  }
+  /*----------------testimonial-----------*/
+  #client-testimonial .owl-carousel .owl-wrapper-outer {
+    min-height: 485px;
+  }
+}
