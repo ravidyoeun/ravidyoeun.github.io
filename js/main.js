@@ -1,9 +1,4 @@
-/*------------------------------------
- *Author:FortunaTheme
- *Template:Experta
- *Version:1.0
- *-------------------------------------
- */
+
 (function($) {
 
     "use strict";
@@ -130,7 +125,7 @@
 
         $(function() {
             element.typed({
-                strings: ["I'm Designer.", "I am Creative."],
+                strings: ["//Full-Stack .NET Web Developer.", "//I am Creative.", "//I'm a Designer"],
                 typeSpeed: 100,
                 loop: true,
             });
