@@ -125,7 +125,7 @@
 
         $(function() {
             element.typed({
-                strings: ["//Full-Stack .NET Web Developer.", "//I am Creative.", "//I'm a Designer"],
+                strings: ["#Full-stack Developer", " Designer(); "],
                 typeSpeed: 100,
                 loop: true,
             });

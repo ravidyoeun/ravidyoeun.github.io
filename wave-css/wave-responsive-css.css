@@ -1,0 +1,148 @@
+/* ----------------------------------- */
+/*
+- Thank you for purchasing the Wave - Multi-Purpose Portfolio Template by hBeThemes.
+- This is the responsive CSS sheet, it changes the layout of the template to fit smaller screens. If you want to edit the template's colours and images, open "wave-css.css"
+- It's recommended that you do not edit anything else in this file unless you know what you're doing.
+/*
+/* ----------------------------------- */
+
+
+
+
+
+
+
+
+@media screen and (max-width:1270px) {
+    
+    /* Sidebar */
+    header {display: none;}
+    .popup {left: 0;}
+    .popup-nav-btn {border: 3px solid #FFF; color: #FFF; display: block; font-size: 12px; font-weight: 700; margin: 8px 0 0 0; padding: 5px 12px; position: absolute; right: 10px; top: 10px; z-index: 98;}
+    .popup-nav-btn:hover {cursor: pointer;}
+    .popup-nav {background: #FFF; bottom: 0; height: auto; left: 0; overflow-y: auto; position: absolute; right: 0; top: 0; width: auto; -webkit-overflow-scrolling: touch;}
+    .popup-nav a {border-bottom: 1px solid #1C1C1C; color: #1C1C1C; display: block; font-size: 14px; height: auto; margin: 0; padding: 20px 0; text-align: center; text-decoration: none; text-transform: uppercase; width: 100%;}
+    
+    
+    /* Body */
+    .body-wrapper {padding: 0}
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1060px) {
+ 
+    /* Body */
+    .container-content {padding: 0 30px;}
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1060px) {
+    
+    /* Project */
+    .project {width: 50%;}
+    #nav-portfolio {text-align: left !important;}
+    
+    
+    /* Services */
+    .service {display: inline-block; width: 50%;}
+    #nav-about {padding: 100px 0 50px 0;}
+    .res-top-services {padding: 0 24px !important; width: 33%;}
+    
+    
+    /* Contact */
+    .split {display: block; margin: 0 auto; max-width: 410px; text-align: center; width: 100%;}
+    #contact-heading {display: none;}
+    #left-split {padding: 0 0 100px 0;}
+    #right-split {padding: 0;}
+    
+    
+    /* Popup */
+    .popup-header h2 {font-size: 28px; line-height: 38px;}
+    .popup-con p {font-size: 15px; padding-left: 30px; padding-right: 30px;}
+    .popup-block {display: block; padding: 20px 10px; width: 100%;}
+    .popup-footer {padding: 30px 20px;}
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    
+    /* Headings */
+    h2 {font-size: 22px; line-height: 32px; margin: 0 0 14px 0;}
+    h3 {font-size: 15px;}
+    .tag-line {font-size: 11px;}
+    .tag-line:after {margin: 14px auto 25px auto;}
+    
+    
+    /* Text slider */
+    #welcome-slider {height: 90px;}
+    #welcome-slider div, #welcome-slider div h1 {font-size: 70px; line-height: 90px;}
+    @keyframes slide {0% { margin-top: 0; } 25% { margin-top: -90px; } 50% { margin-top: -180px; } 75% { margin-top: -270px; } 100% { margin-top: 0; }}
+    
+    
+    /* Testimonial */
+    .testimonial {margin: 0;}
+    .testimonial-review {font-size: 20px;}
+    .testimonial-name {font-size: 15px;}
+    .testimonial-work {font-size: 12px;}
+    
+    
+    /* Project */
+    .project {display: block; width: 100%;}
+    .project-info {display: none;}
+    .project:hover .project-info {display: none;}
+    .project:hover .project-info-content {display: none;}
+    
+    
+    /* Services */
+    .service {display: block; padding: 0; width: 100%;}
+    .res-top-services {padding: 0 0 50px 0 !important;}
+    
+    
+    /* Contact blocks */
+    .contact-block {display: block; max-width: none; padding: 20px 0; width: 100%;}
+    #contact-info-section {padding: 40px 0;}
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    
+    /* Body */
+    .container-content {padding: 0 20px;}
+    
+    /* Text slider */
+    #welcome-slider {height: 60px;}
+    #welcome-slider div, #welcome-slider div h1 {font-size: 45px; line-height: 60px;}
+    @keyframes slide {0% { margin-top: 0; } 25% { margin-top: -60px; } 50% { margin-top: -120px; } 75% { margin-top: -180px; } 100% { margin-top: 0; }}
+    
+    
+    /* About button */
+    .welcome-banner {height: 490px;}
+    #about-us-btn {display: none;}
+    
+}
